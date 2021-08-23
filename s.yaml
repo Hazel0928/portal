@@ -1,0 +1,40 @@
+edition: 1.0.0
+name: jamstack-website
+access: default
+vars:
+  apiSourceCode: api
+  domain: serverlessdevs.resume.net.cn
+  releaseCode: website # 最终构建的代码包
+services:
+  # api:
+  #   component: devsapp/jamstack-api
+  #   actions:
+  #     pre-deploy:
+  #       - run: npm install
+  #         path: ./functions
+  #   props:
+  #     region: cn-hangzhou
+  #     app:
+  #       name: devs-http-demo #选填 默认 devs-http-demo
+  #     sourceCode: functions
+  #     route:
+  #       - /
+  jamstack-website:
+    component: jamstack
+    props:
+      domain: ${vars.domain}
+      favicon: false
+      defaultApp: frontend
+      apps:
+        - name: frontend
+          type: jamstack
+          releaseCode: ${vars.releaseCode}
+          paths:
+            - /
+          indexFile: index.html
+          page404Url: 404.html
+        # - name: apis  
+        #   type: backend
+        #   paths:
+        #     - /~apis
+        #   proxyUrl: <proxyedApi>
