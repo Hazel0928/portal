@@ -10,7 +10,9 @@
     "serve": "sandbox"
   },
   "dependencies": {
-    "@serverless-devs/dk": "latest"
+    "@serverless-devs/dk": "latest",
+    "lodash.get": "^4.4.2",
+    "superagent": "^6.1.0"
   },
   "devDependencies": {
     "@serverless-devs/sandbox": "latest"

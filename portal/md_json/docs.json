@@ -1,0 +1,145 @@
+{
+  "en-us": [
+    {
+      "filename": "demo1.md",
+      "link": "/en-us/docs/demo1.html",
+      "meta": {}
+    },
+    {
+      "filename": "demo2.md",
+      "link": "/en-us/docs/demo2.html",
+      "meta": {}
+    },
+    {
+      "filename": "demo3.md",
+      "link": "/en-us/docs/dir/demo3.html",
+      "meta": {}
+    }
+  ],
+  "zh-cn": [
+    {
+      "filename": "command.md",
+      "link": "/zh-cn/docs/command.html",
+      "meta": {
+        "sidebar_position": "3"
+      }
+    },
+    {
+      "filename": "dev.md",
+      "link": "/zh-cn/docs/dev.html",
+      "meta": {
+        "sidebar_position": "5"
+      }
+    },
+    {
+      "filename": "install.md",
+      "link": "/zh-cn/docs/install.html",
+      "meta": {
+        "sidebar_position": "2"
+      }
+    },
+    {
+      "filename": "cliinstall.md",
+      "link": "/zh-cn/docs/installed/cliinstall.html",
+      "meta": {
+        "title": "Serverless Cli 安装",
+        "keywords": "Serverless Cli，命令行",
+        "description": "Serverless Cli 安装"
+      }
+    },
+    {
+      "filename": "desktopinstall.md",
+      "link": "/zh-cn/docs/installed/desktopinstall.html",
+      "meta": {
+        "title": "Serverless Desktop 安装",
+        "keywords": "Serverless Desktop，electron，可视化客户端",
+        "description": "Serverless Desktop 安装"
+      }
+    },
+    {
+      "filename": "intro.md",
+      "link": "/zh-cn/docs/intro.html",
+      "meta": {}
+    },
+    {
+      "filename": "faq.md",
+      "link": "/zh-cn/docs/overview/faq.html",
+      "meta": {
+        "title": "ServerlessDevs常见问题",
+        "keywords": "Serverless Devs",
+        "description": "ServerlessDevs 常见问题。"
+      }
+    },
+    {
+      "filename": "intro.md",
+      "link": "/zh-cn/docs/overview/intro.html",
+      "meta": {}
+    },
+    {
+      "filename": "terminology.md",
+      "link": "/zh-cn/docs/overview/terminology.html",
+      "meta": {
+        "title": "Serverless Devs",
+        "keywords": "Serverless Devs",
+        "description": "ServerlessDevs术语。"
+      }
+    },
+    {
+      "filename": "alibabacloud.md",
+      "link": "/zh-cn/docs/provider-config/alibabacloud.html",
+      "meta": {}
+    },
+    {
+      "filename": "aws.md",
+      "link": "/zh-cn/docs/provider-config/aws.html",
+      "meta": {}
+    },
+    {
+      "filename": "azure.md",
+      "link": "/zh-cn/docs/provider-config/azure.html",
+      "meta": {}
+    },
+    {
+      "filename": "baiducloud.md",
+      "link": "/zh-cn/docs/provider-config/baiducloud.html",
+      "meta": {}
+    },
+    {
+      "filename": "gcp.md",
+      "link": "/zh-cn/docs/provider-config/gcp.html",
+      "meta": {}
+    },
+    {
+      "filename": "huaweicloud.md",
+      "link": "/zh-cn/docs/provider-config/huaweicloud.html",
+      "meta": {}
+    },
+    {
+      "filename": "tencentcloud.md",
+      "link": "/zh-cn/docs/provider-config/tencentcloud.html",
+      "meta": {}
+    },
+    {
+      "filename": "desktop-quickstart.md",
+      "link": "/zh-cn/docs/quickstart/desktop-quickstart.html",
+      "meta": {
+        "key1": "serverless",
+        "key2": "electron"
+      }
+    },
+    {
+      "filename": "registry.md",
+      "link": "/zh-cn/docs/registry.html",
+      "meta": {
+        "sidebar_position": "6"
+      }
+    },
+    {
+      "filename": "yaml.md",
+      "link": "/zh-cn/docs/yaml.html",
+      "meta": {
+        "sidebar_position": "3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "statefulConfig": {
+    "serviceName": "serverless-devs-portal",
+    "description": "",
+    "role": "acs:ram::1740298130743624:role/AliyunFcDefaultRole1",
+    "logConfig": {
+      "project": "",
+      "logstore": "",
+      "enableRequestMetrics": false,
+      "enableInstanceMetrics": false
+    },
+    "serviceId": "8613e2f5-e850-4240-810e-1a0aa67fd085",
+    "createdTime": "2021-08-25T03:30:47Z",
+    "vpcConfig": {
+      "vpcId": "",
+      "vSwitchIds": [],
+      "securityGroupId": "",
+      "role": ""
+    },
+    "internetAccess": true,
+    "nasConfig": {
+      "userId": -1,
+      "groupId": -1,
+      "mountPoints": []
+    },
+    "vendorConfig": null,
+    "tracingConfig": {
+      "type": null,
+      "params": null,
+      "jaegerConfig": null
+    },
+    "name": "serverless-devs-portal"
+  },
+  "statefulAutoConfig": {
+    "role": "acs:ram::1740298130743624:role/AliyunFcDefaultRole1"
+  }
+}

@@ -1,10 +1,10 @@
 edition: 1.0.0
-name: jamstack-website
+name: serverless-devs-website
 access: default
 vars:
   apiSourceCode: api
   domain: serverlessdevs.resume.net.cn
-  releaseCode: website # 最终构建的代码包
+  portalReleaseCode: portal # 最终构建的代码包
 services:
   # api:
   #   component: devsapp/jamstack-api
@@ -15,20 +15,20 @@ services:
   #   props:
   #     region: cn-hangzhou
   #     app:
-  #       name: devs-http-demo #选填 默认 devs-http-demo
+  #       name: serverless-devs-portal
   #     sourceCode: functions
   #     route:
   #       - /
-  jamstack-website:
+  website:
     component: jamstack
     props:
       domain: ${vars.domain}
       favicon: false
-      defaultApp: frontend
+      defaultApp: portal
       apps:
-        - name: frontend
+        - name: portal
           type: jamstack
-          releaseCode: ${vars.releaseCode}
+          releaseCode: ${vars.portalReleaseCode}
           paths:
             - /
           indexFile: index.html

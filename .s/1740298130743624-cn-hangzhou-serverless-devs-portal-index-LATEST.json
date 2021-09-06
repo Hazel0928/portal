@@ -1,0 +1,23 @@
+{
+  "statefulConfig": {
+    "triggerName": "LATEST",
+    "description": "",
+    "triggerId": "21b9aa25-9339-4c4f-bfe8-87b1e4930a88",
+    "sourceArn": null,
+    "triggerType": "http",
+    "invocationRole": null,
+    "qualifier": "LATEST",
+    "triggerConfig": {
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE",
+        "HEAD"
+      ],
+      "authType": "anonymous"
+    },
+    "createdTime": "2021-08-25T03:30:48Z",
+    "name": "LATEST"
+  }
+}
